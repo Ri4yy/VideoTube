@@ -1,0 +1,69 @@
+.video_card{
+    width: 75%;
+}
+.video_name{
+    font-size: 26px;
+}
+.channel_name{
+    font-size: 18px;
+}
+.desk{
+    font-size: 20px;
+}
+.video_cont{
+    overflow: hidden;
+    height: 550px;
+}
+.textbox {
+    overflow: hidden;
+    height: 55px;
+}
+.opened {
+    overflow: auto;
+    height: auto;
+}
+.opened+div {
+    display: none;
+}
+@media screen and (max-width: 982px) {
+    .video_card{
+        width: 100%;
+    }
+    .video_name{
+        font-size: 24px;
+    }
+    .channel_name{
+        font-size: 16px;
+    }
+    .desk{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px)  and (min-width: 500px) {
+    .video_card{
+        width: 100%;
+    }
+    .video_name{
+        font-size: 24px;
+    }
+    .channel_name{
+        font-size: 16px;
+    }
+    .desk{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .video_card{
+        width: 100%;
+    }
+    .video_name{
+        font-size: 22px;
+    }
+    .channel_name{
+        font-size: 14px;
+    }
+    .desk{
+        font-size: 14px;
+    }
+}
